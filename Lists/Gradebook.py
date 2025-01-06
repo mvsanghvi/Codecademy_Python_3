@@ -15,10 +15,10 @@ gradebook.append(["visual arts", 93])
 gradebook[-1][-1]= 93+5
 # print(gradebook)
 
-gradebook.remove(["poetry", 85])
+gradebook[2].remove(85)
 # print(gradebook)
 
-gradebook.append(["poetry", "Pass"])
+gradebook[2].append("Pass")
 print(gradebook)
 
 full_gradebook= last_semester_gradebook + gradebook
